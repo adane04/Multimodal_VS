@@ -1,4 +1,4 @@
-# Multimodal Summarization (Ongoing Project)
+# Multimodal Video Summarization (Ongoing Project)
 
 ## How to Run
 
