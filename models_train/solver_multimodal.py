@@ -270,7 +270,7 @@ class Solver(object):
 
         # Check if test_loader has data
         if len(self.test_loader) == 0:
-            print("⚠️ test_loader is empty. Check your dataset.")
+            print("test_loader is empty.")
             return
 
         for video_features, text_features, video_data in tqdm(self.test_loader, desc='Evaluate', ncols=80, leave=False):
