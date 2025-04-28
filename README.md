@@ -1,6 +1,11 @@
+# Multimodal Summarization (Ongoing Project)
+
 ## How to Run
 
-- To train on a single split:
+- **Single Split Training:**
 
   ```bash
   python train_multimodal.py --split_index 0
+  
+## Notes
+This is an ongoing collaborative project.
