@@ -1,4 +1,4 @@
-# Multimodal Video Summarization (Ongoing Project)
+# Multimodal Video Summarization
 
 ## How to Run
 
@@ -8,4 +8,4 @@
   python train_multimodal.py --split_index 0
   
 ## Notes
-This is an ongoing collaborative project.
+This is an ongoing project.
