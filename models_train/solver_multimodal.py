@@ -103,7 +103,7 @@ class Solver(object):
             loss *= adaptive_weight
 
         return lambdac * loss.mean()
-    
+    ## there may be additional losses that can be added for the multimodal 
     
     def train(self):
         step = 0
