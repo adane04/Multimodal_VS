@@ -1,3 +1,4 @@
+## this code generates visual features
 import os
 import numpy as np
 import h5py
