@@ -1,4 +1,4 @@
-# generate_text_CLIP.py
+# generate_text_CLIP.py generates textaul features
 import numpy as np
 import torch
 import os
