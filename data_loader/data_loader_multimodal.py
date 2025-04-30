@@ -25,7 +25,7 @@ class VideoData(Dataset):
         # Load video names for this split
         self.video_names = self.split[self.mode + '_keys']
 
-        # Load visual + text features once (if small enough)
+        # Load visual + text features from CLIP encoder
         self.visual_data = {}
         self.text_data = {}
         with h5py.File(self.visual_path, 'r') as hdf:
